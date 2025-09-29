@@ -56,8 +56,8 @@ const BookList = ({ user, onLogout }) => {
           {books.map(book => (
             <div key={book._id} className="book-card">
               {book.image && (
-                <img 
-                  src={`http://localhost:5000/uploads/${book.image}`} 
+                <img
+                  src={`https://bookswap-marketplace-5ly6.onrender.com/uploads/${book.image}`}
                   alt={book.title}
                   className="book-image"
                 />

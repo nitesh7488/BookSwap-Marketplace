@@ -10,7 +10,7 @@ import MyBooks from './components/MyBooks.jsx';
 import Requests from './components/Requests.jsx';
 import './App.css';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://bookswap-marketplace-5ly6.onrender.com';
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token'));
